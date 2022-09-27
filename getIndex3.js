@@ -6,5 +6,7 @@ Write a program getIndex3.js that prompts the user for an array then logs out th
 
 let thirdIndex1 = JSON.parse(prompt("Enter an array: "));
 
+let index3 = thirdIndex1.length
 
-console.log(thirdIndex1[thirdIndex1.length-1]) 
+if(index3 >= 4){console.log(thirdIndex1[3])}
+else{console.log(thirdIndex1[index3-1])}  
